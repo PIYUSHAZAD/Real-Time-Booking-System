@@ -1,0 +1,30 @@
+{
+  "name": "tour-and-travel-website",
+  "version": "1.0.0",
+  "description": "Travel and Tourism Website with Payment Gateway",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "build": "echo 'Build complete'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "travel",
+    "tourism",
+    "booking",
+    "payment-gateway",
+    "website"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^7.5.0"
+  }
+}
